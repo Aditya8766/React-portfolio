@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/React-portfolio/static/js/main.c30b2cf8.js",
+    "main.css": "/React-portfolio/static/css/main.c39525cc.css",
+    "main.js": "/React-portfolio/static/js/main.f29d183b.js",
     "static/js/787.128fc6e9.chunk.js": "/React-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/React-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Dev.gif": "/React-portfolio/static/media/Dev.9d98e3a981b0be2d44eb.gif",
+    "static/media/ADITYA-BHOSALE.gif": "/React-portfolio/static/media/ADITYA-BHOSALE.f89159857f8fb7f92a64.gif",
+    "static/media/location.png": "/React-portfolio/static/media/location.4ba2450b71e973e57b09.png",
+    "static/media/avatar.png": "/React-portfolio/static/media/avatar.2265feec2d7d7c32e544.png",
+    "static/media/mail.png": "/React-portfolio/static/media/mail.8c95b3d415466d47afda.png",
     "index.html": "/React-portfolio/index.html",
-    "main.073c9b0a.css.map": "/React-portfolio/static/css/main.073c9b0a.css.map",
-    "main.c30b2cf8.js.map": "/React-portfolio/static/js/main.c30b2cf8.js.map",
+    "main.c39525cc.css.map": "/React-portfolio/static/css/main.c39525cc.css.map",
+    "main.f29d183b.js.map": "/React-portfolio/static/js/main.f29d183b.js.map",
     "787.128fc6e9.chunk.js.map": "/React-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c30b2cf8.js"
+    "static/css/main.c39525cc.css",
+    "static/js/main.f29d183b.js"
   ]
 }
