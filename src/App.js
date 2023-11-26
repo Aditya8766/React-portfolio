@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react';
 import profile from"./data/profile.json";
-import { Routes, Route } from "react-router-dom";
-import Layout from './components/routes/Skills';
-import Home from './components/routes/Home';
-import Blogs from './components/routes/Blogs';
-import Header from './components/core-components/Header';
 import React from 'react';
-import Contacts from './components/routes/Contacts';
-import Footer from './components/core-components/Footer';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Resume from './components/resume/Resume';
+import Projects from './components/projects/Projects';
+import Contact from './components/contact-me/Contact';
+import Hire from './components/hire-me/Hire';
+import Footer from './components/footer/Footer';
+import './app.css';
+
 function App() {
   const [profileData,setProfileData]=useState([]);
   const getProfile=()=>{
@@ -18,7 +20,7 @@ function App() {
   const processData=(Promise)=> {
     Promise.then((data) => {
       setProfileData(data)
-      console.log("data:::",typeof data)
+      console.log("Data:::",data);
     }).catch(Error);
   }
   useEffect(()=>{
@@ -27,13 +29,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
-      <Routes>
-          <Route path="" element={ <Home profileData={profileData}/> } exact></Route>
-          <Route path="/about" element={<Blogs/>}></Route>
-          <Route path="/skills" element={<Layout/>}></Route>
-          <Route path="/contact me" element={<Contacts/>}></Route>
-      </Routes>
+      {console.log("profileData",profileData)}
+      <Home/>
+      <About/>
+      <Resume/>
+      <Projects/>
+      <Hire/>
+      <Contact/>
       <Footer/>
     </div>
   );
